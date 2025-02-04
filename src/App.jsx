@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import HomePage from "./pages/HomePage";
-import HostelsPage from "./pages/HostelsPage";
-import AboutPage from "./pages/AboutPage";
-import Footer from "./components/Footer"; // Import Footer
-import useDarkMode from "./hooks/useDarkMode";
+import Navbar from "./Navbar";
+import HomePage from "./HomePage";
+import HostelsPage from "./HostelsPage";
+import AboutPage from "./AboutPage";
+import Footer from "./Footer"; 
+import useDarkMode from "./useDarkMode";
 import "./index.css";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/hostels" element={<HostelsPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
-        <Footer /> {/* Add Footer here */}
+        <Footer />
       </div>
     </Router>
   );
