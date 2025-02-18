@@ -31,4 +31,4 @@ The project consists of multiple React components, implementing routing and dark
 
 ## 📜 License
 
-This project is **for learning purposes** and does not include a license.
+- MIT License.
